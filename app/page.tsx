@@ -16,10 +16,10 @@ export default function Home() {
           <div className="h-auto w-full 2xl:w-4/5">
             <Nav />
             <Hero />
-            {/* <Skills />
+            <Skills />
             <Projects />
             <Experience />
-            <Footer /> */}
+            <Footer />
           </div>
         </div>
       </GlobalContextProvider>
