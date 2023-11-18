@@ -51,17 +51,17 @@ const Hero = () => {
                     </Link>
                 </div>
                 <ul className='flex items-center my-3'>
-                    <li className='mr-2'
+                    <li className='mr-2 cursor-pointer'
                         onClick={() => {
                             window.open(process.env.NEXT_PUBLIC_LINKED_IN, "_blank")
                         }}
                     ><LinkedInIco width={20} height={19} /></li>
-                    <li className='mr-2'
+                    <li className='mr-2 cursor-pointer'
                         onClick={() => {
                             window.open(process.env.NEXT_PUBLIC_GIT_HUB, "_blank")
                         }}
                     ><GitIco width={21} height={20} /></li>
-                    <li className='mr-2'
+                    <li className='mr-2 cursor-pointer'
                         onClick={() => {
                             window.open(process.env.NEXT_PUBLIC_YOU_TUBE, "_blank")
                         }}
