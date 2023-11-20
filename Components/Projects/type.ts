@@ -10,9 +10,9 @@ export interface projectDto {
 export const projectsData : projectDto[] = [
     {
         Title:"Daily Dash",
-        imageUrl:"/images/Portfolio.png",
+        imageUrl:"/images/DailyDash/Computer-home-page.png",
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque hic in, doloremque nobis officia ex quam minus ad repellat ratione repudiandae quisquam, amet ea quasi mollitia laborum illum? Magni, placeat aut impedit similique, doloremque excepturi velit inventore autem dolor soluta nostrum. Magni itaque tenetur reiciendis dolores facere, pariatur maxime!",
-        isImageAllowToScroll : true,
+        isImageAllowToScroll : false,
         route : "daily-dash",
         live:process.env.NEXT_PUBLIC_DAILY_DASH_LIVE
     },
