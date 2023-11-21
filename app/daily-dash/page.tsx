@@ -74,7 +74,7 @@ const Page = () => {
 
                 {/* email - password  */}
                 <div className='my-4'>
-                    <h1 className={`text-lg ${philosopher.className}`}>To explore the project's features, you can use the provided demo account:</h1>
+                    <h1 className={`text-lg ${philosopher.className}`}>{"To explore the project's features, you can use the provided demo account:"}</h1>
                     <ul className='p-2 text-justify'>
                         <li>email: testdailydash@gmail.com</li>
                         <li>password: A&5ErFs7$n-V.*!</li>

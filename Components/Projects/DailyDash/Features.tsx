@@ -93,7 +93,7 @@ const Features = () => {
                         <li className='list-disc '>Send email notifications to participants about the scheduled meeting when it meeting created</li>
                         <li className='list-disc '>Allow users to add email addresses, and if the user is not registered, send an invitation link while creating meeting</li>
                         <li className='list-disc '>Meeting status based on date and length relative to the current date (Not started, On Going, Completed)</li>
-                        <li className='list-disc '>Only allow entry to meetings with "On Going" status</li>
+                        <li className='list-disc '>{`Only allow entry to meetings with "On Going" status`}</li>
                         <li className='list-disc '>Inside meeting room participants can see list of participants (present and absent)</li>
                         <li className='list-disc '>Participants can engage in real-time text chat during the meeting</li>
                         <li className='list-disc '>Allow participants to react with emojis during the meeting</li>
