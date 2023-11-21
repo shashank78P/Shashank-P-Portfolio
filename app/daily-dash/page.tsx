@@ -18,56 +18,13 @@ import NextJsIco from '@/Components/assets/NextJsIco'
 import NestIco from '@/Components/assets/NestIco'
 import TailwindCssIco from '@/Components/assets/TailwindCssIco'
 import TypeScriptIco from '@/Components/assets/TypeScriptIco'
+import { bookMark, chat, meeting, quickAccess } from '@/Components/Projects/DailyDash/type'
+import ImagesSection from '@/Components/Projects/DailyDash/ImagesSection'
+import VideoSection from '@/Components/Projects/DailyDash/VideoSection'
+import Features from '@/Components/Projects/DailyDash/Features'
 
 const Page = () => {
-    const images = [
-        "add-new-contact.png",
-        "add-quick-access.png",
-        "audio-recorder.png",
-        "bookmark-card-view.png",
-        "bookmark-inner-page.png",
-        "bookmark-search.png",
-        "bookmark-with-filter.png",
-        "bookmark1.png",
-        "cearte-bookmark2.png",
-        "chat-page.png",
-        "chat-page2.png",
-        "Computer-home-page.png",
-        "create-bookmark.png",
-        "create-group.png",
-        "create-meeting (2).png",
-        "create-meeting.png",
-        "edit-bookmark (2).png",
-        "edit-bookmark.png",
-        "edit-meeeting.png",
-        "edit-meeting (2).png",
-        "edit-meeting.png",
-        "edit-quick-access.png",
-        "filter.png",
-        "forget-password.png",
-        "group-profile-3.png",
-        "group-profile1.png",
-        "group-profile2 (2).png",
-        "group-profile2.png",
-        "group_message.png",
-        "log-in.png",
-        "meeting-inner-page.png",
-        "meeting-innerpage.png",
-        "meeting-with-filters.png",
-        "meeting.png",
-        "message.png",
-        "message2.png",
-        "mobile-home-page.png",
-        "options.png",
-        "profile-edit.png",
-        "profile.png",
-        "profile1.png",
-        "profile2.png",
-        "Screenshot 2023-11-20 060919.png",
-        "Screenshot 2023-11-20 061017.png",
-        "sign-up.png",
-        "video-recorder.png",
-    ]
+
     return (
         <div className='w-full h-auto flex items-start justify-center bg-white text-black_c_1 '>
             <ScrollToTop />
@@ -115,6 +72,15 @@ const Page = () => {
                     </ul>
                 </div>
 
+                {/* email - password  */}
+                <div className='my-4'>
+                    <h1 className={`text-lg ${philosopher.className}`}>To explore the project's features, you can use the provided demo account:</h1>
+                    <ul className='p-2 text-justify'>
+                        <li>email: testdailydash@gmail.com</li>
+                        <li>password: A&5ErFs7$n-V.*!</li>
+                    </ul>
+                </div>
+
                 {/* Introduction */}
                 <div className='my-4'>
                     <h1 className={`text-lg ${philosopher.className}`}>Introduction</h1>
@@ -124,17 +90,7 @@ const Page = () => {
                 </div>
 
                 {/* features */}
-                <div className='my-4'>
-                    <h1 className={`text-lg ${philosopher.className}`}>Key Features</h1>
-                    <ul className='p-2'>
-                        <li>Create, Read, Update or Delete to-do tasks</li>
-                        <li>Secured login system</li>
-                        <li>Search functionality based on to-do task name</li>
-                        <li>Pagination</li>
-                        <li>Filter to-do task by status</li>
-                        <li>Delete and un-do completed to-do task</li>
-                    </ul>
-                </div>
+                <Features />
 
                 {/* technologies used */}
                 <div className='my-4'>
@@ -198,32 +154,9 @@ const Page = () => {
                 </div>
 
                 {/* video demo */}
-                <div className='my-4'>
-                    <h1 className={`text-lg ${philosopher.className}`}>Video Demo</h1>
-                    <div className='w-full flex justify-center items-center my-2'>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/TbZwKGdO9SI?si=T7uOt42CysQE1OBn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
-                    </div>
-                </div>
+                <VideoSection />
 
-                <div className='my-4'>
-                    <h1 className={`text-lg ${philosopher.className}`}>Images</h1>
-                    <div className='columns-2 md:columns-3 lg:columns-4 gap-3 p-2'>
-                        {
-                            images?.map((img, i) => {
-                                return (
-                                    <div className='w-full h-auto my-1 inline-block rounded-lg overflow-hidden border shadow-lg cursor-pointer' key={i}>
-                                        <img
-                                            src={`/images/DailyDash/${img}`}
-                                            alt={img}
-                                            className='object-cover border'
-                                        />
-                                    </div>
-                                )
-                            })
-                        }
-                    </div>
-
-                </div>
+                <ImagesSection />
 
                 <DetailedPageFooter />
 

@@ -33,3 +33,4 @@ export const projectsData : projectDto[] = [
         live:process.env.NEXT_PUBLIC_TUTORIAL_MANAGEMENT_SYSTEM_LIVE,
     }
 ]
+
