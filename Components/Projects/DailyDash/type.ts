@@ -55,4 +55,16 @@ export const meeting = [
     "edit-meeting.png",
     "edit-meeting (2).png",
     "meeting-with-filters.png",
+
+    "meeting-page.png",
+    "meeting-enty-page1.png",
+    "meeting-page2.png",
+    "meeting-chat.png",
+    "meeting-pinned-page.png",
+    "meeting-screen-share.png",
+    "meeting-screen-shre-result.png",
+    "meeting-participants-list.png",
+    "meeting-invite-link-mail.png",
+    "meeting-invite-user.png",
+    "meeting-left.png",
 ]

@@ -3,17 +3,30 @@ import React from 'react'
 
 const VideoSection = () => {
     return (
-        <div className='my-4'>
+        <div className='my-4 '>
             <h1 className={`text-lg ${philosopher.className}`}>Video Demo</h1>
+                
+                <div className='my-2 '>
+                    <h1 className={`text-base ml-2`}>Daily Dash - login , sign up , reset-password , Quick Access</h1>
+                    <div className='w-full flex justify-center items-center my-2'>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ooq6qw0R6YI?si=FEZJzeMnUSXbBl93" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    </div>
+                </div>
 
-            <div className='my-2'>
-                <h1 className={`text-base ml-2`}>Daily Dash - login , sign up , reset-password , Quick Access</h1>
-                <div className='w-full flex justify-center items-center my-2'>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ooq6qw0R6YI?si=FEZJzeMnUSXbBl93" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                <div className='my-2'>
+                    <h1 className={`text-base ml-2`}>Daily Dash - Profile , Block Page</h1>
+                    <div className='w-full flex justify-center items-center my-2'>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/B2j-esk8PeY?si=-f_OawbrNuuKwf-u" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    </div>
+                </div>
+                
+                <div className='my-2'>
+                    <h1 className={`text-base ml-2`}>Daily Dash - Meeting mini app</h1>
+                    <div className='w-full flex justify-center items-center my-2'>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/z2jbL_6ZRbk?si=oETzjzaEA55BBFjE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                    </div>
                 </div>
             </div>
-
-        </div>
     )
 }
 

@@ -45,7 +45,7 @@ const Page = () => {
                     </div>
                 </nav>
 
-                <div className='my-4'>
+                <div className='my-4 '>
                     <img
                         src={"/images/AdvanceToDoList/homePage.png"} alt=''
                         className='w-full h-auto object-contain'
