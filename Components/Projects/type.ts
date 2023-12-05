@@ -11,7 +11,7 @@ export const projectsData : projectDto[] = [
     {
         Title:"Daily Dash",
         imageUrl:"/images/DailyDash/Computer-home-page.png",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores atque hic in, doloremque nobis officia ex quam minus ad repellat ratione repudiandae quisquam, amet ea quasi mollitia laborum illum? Magni, placeat aut impedit similique, doloremque excepturi velit inventore autem dolor soluta nostrum. Magni itaque tenetur reiciendis dolores facere, pariatur maxime!",
+        description : "DailyDash is a dynamic project I contributed to, offering a versatile communication and productivity platform. Leveraging JWT token authentication, it ensures secure user logins while monitoring device activity. Users can register manually, via Google, and manage their device logins effectively. The platform integrates quick access features, bookmark organization with sorting and filtering capabilities, and a robust chat system supporting private conversations, file sharing, and group interactions. Additionally, DailyDash facilitates seamless scheduled meetings with email notifications, real-time chat, multimedia sharing, and participant engagement features. My involvement encompassed feature design, implementation, and user experience enhancements within the DailyDash project.",
         isImageAllowToScroll : false,
         route : "daily-dash",
         live:process.env.NEXT_PUBLIC_DAILY_DASH_LIVE

@@ -148,11 +148,11 @@ const Page = () => {
                 </div>
 
                 {/* video demo */}
-                <div className='my-4'>
+                {/* <div className='my-4'>
                     <h1 className={`text-lg ${philosopher.className}`}>Video Demo</h1>
                     <div className='w-full flex justify-center items-center my-2'>
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/TbZwKGdO9SI?si=T7uOt42CysQE1OBn" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>                    </div>
-                </div>
+                </div> */}
 
                 <div className='my-4'>
                     <h1 className={`text-lg ${philosopher.className}`}>Images</h1>

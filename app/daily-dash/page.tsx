@@ -85,8 +85,7 @@ const Page = () => {
                 <div className='my-4'>
                     <h1 className={`text-lg ${philosopher.className}`}>Introduction</h1>
                     <p className='p-2 text-justify'>
-                        The Advance To-Do List web app allows a user to create, read, update or delete to-do tasks.Its user-friendly interface includes a secure login system to protect user data. The app features pagination for easy navigation through tasks, ensuring a smooth user experience, especially with a large number of entries. The search functionality allows users to quickly locate specific tasks by task name. Furthermore, users can filter tasks based on their status, distinguishing between active and completed tasks.
-                    </p>
+                    DailyDash is a dynamic project I contributed to, offering a versatile communication and productivity platform. Leveraging JWT token authentication, it ensures secure user logins while monitoring device activity. Users can register manually, via Google, and manage their device logins effectively. The platform integrates quick access features, bookmark organization with sorting and filtering capabilities, and a robust chat system supporting private conversations, file sharing, and group interactions. Additionally, DailyDash facilitates seamless scheduled meetings with email notifications, real-time chat, multimedia sharing, and participant engagement features. My involvement encompassed feature design, implementation, and user experience enhancements within the DailyDash project.                    </p>
                 </div>
 
                 {/* features */}
