@@ -11,13 +11,9 @@
 ## Social Media and Profiles
 
 - [LinkedIn](link_to_linkedin_profile)
-- [GitHub](link_to_github_profile)
-- [Portfolio](link_to_portfolio_website)
-- [YouTube](link_to_youtube_channel)
-
-## Objective
-
-To seek an intellectually challenging job where my knowledge and skills can be honed by working with the latest technologies and contribute towards the goals of the organization.
+- [GitHub](https://github.com/shashank78P)
+- [Portfolio](https://shashank-p-portfolio.vercel.app/)
+- [YouTube](https://www.youtube.com/channel/UCnv36ZvEbuxOgyouqakauug)
 
 ## Skills
 
@@ -35,7 +31,7 @@ To seek an intellectually challenging job where my knowledge and skills can be h
 
 ### Frameworks/Libraries
 
-- React.js, Next.js, Flutter
+- React.js, Next.js, Flutter , Django
 
 ### Tools
 
@@ -44,35 +40,24 @@ To seek an intellectually challenging job where my knowledge and skills can be h
 ## Projects
 
 1. **DailyDash**
-   - A multifaceted web application with a chat system, meeting system, secure login, Google Drive integration, and more.
-   - [Preview](link_to_preview)
-   - [Live Demo](link_to_live_demo)
-   - [Video Demo](link_to_video_demo)
-   - [Code](link_to_code)
+   - DailyDash is a multifaceted web application comprising a chat system for both individual and group communication. It incorporates a robust meeting system with video, audio, and screen-sharing capabilities.        The project includes a secure login system supporting manual and Google login, employing JWT tokens stored in cookies. Integration with Google Drive enables seamless file management. Additionally, the             platform offers a bookmarks feature for efficient organization and prioritization.
+   - [Preview](https://daily-dash.vercel.app/)
+   - [Video Demo](https://www.youtube.com/playlist?list=PL97HzcXdIb4fYVfhqRUPq8nDbt1EMFVdT)
+   - [FrontEnd Code](https://github.com/shashank78P/DailyDash)
+   - [BackEnd Code](https://github.com/shashank78P/DailyDashApi)
 
 2. **Advance Todo-List**
-   - A MERN stack web app for managing Todo tasks securely with JWT token authentication and undo option for deleted tasks.
-   - [Preview](link_to_preview)
-   - [Live Demo](link_to_live_demo)
-   - [Video Demo](link_to_video_demo)
-   - [Code](link_to_code)
+   - A Todo-task web app where we can add / delete / update task and can monitor task status. And implemented secure user authentication through JWT token , and add undo option for deleted Todo-tasks. Developed        using MERN Stack
+   - [Preview](https://advance-to-do-list-front-end.vercel.app/)
+   - [Video Demo](https://youtu.be/TbZwKGdO9SI)
+   - [FrontEnd Code](https://github.com/shashank78P/AdvanceToDoListFrontEnd)
+   - [BackEnd Code](https://github.com/shashank78P/AdvanceTodoListBackendEnd)
 
 3. **Resellify**
-   - A pre-owned product selling platform developed using Flutter, PHP, and MySQL with features like chat, search functionality, trending items, and an Add to cart feature.
-   - [Preview](link_to_preview)
-   - [Live Demo](link_to_live_demo)
-   - [Video Demo](link_to_video_demo)
-   - [Code](link_to_code)
+   - It is a pre-owned product selling platform developed using Flutter , PHP and MySQL. Here user can sell and buy products , provided a chatting between seller and buyer , search functionality based on recent        search, trending items to improve user accessibility to desired products, integrated Add to cart feature.
 
 4. **Tutorial Management System**
    - A web app to organize, schedule, and track tutorials developed using React.js, HTML, CSS, Express.js, and MySQL.
-   - [Preview](link_to_preview)
-   - [Live Demo](link_to_live_demo)
-   - [Video Demo](link_to_video_demo)
-   - [Code](link_to_code)
-
-## Certifications
-
-- [React - The Complete Guide 2023 (incl. React Router & Redux)](link_to_certification)
-- [Master MongoDB Development for Web and Mobile App from Udemy](link_to_certification)
-- [Node.js, Express, MongoDB & More: The Complete Bootcamp 2023](link_to_certification)
+   - [Preview](https://dbms-project-front-end-code.vercel.app/)
+   - [FrontEnd Code](https://github.com/shashank78P/DBMS_Project_Front_End_Code-)
+   - [BackEnd Code](https://github.com/shashank78P/DBMS_Project_Backend_code)
