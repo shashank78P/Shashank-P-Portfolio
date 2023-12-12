@@ -19,28 +19,6 @@
 
 To seek an intellectually challenging job where my knowledge and skills can be honed by working with the latest technologies and contribute towards the goals of the organization.
 
-## Experience
-
-### Zedblock | MERN Stack Developer Intern | (Feb 2023 – June 2023)
-
-- Applied knowledge of MongoDB, Nest.js, Next.js, TypeScript, Node.js to create robust web applications.
-- Actively participated in team collaborations, effectively communicating ideas, and contributing to project success.
-
-### Suvidha Foundation | Web Development | (Nov 2022 – Dec 2022)
-
-- Applied knowledge of React.js, HTML, CSS, JavaScript to create single-page web applications.
-
-## Education
-
-- **Global Academy Of Technology**
-  - Computer Science Of Engineering | 2020-24 | CGPA: 8.86/10 (Till 6th Sem)
-
-- **Rajajinagar PU College**
-  - 2nd PU (XII class) | 2020 | Aggregate: 83.166%
-
-- **Alfred Nobel Public School**
-  - SSLC (Class X) | 2018 | Aggregate: 85.6%
-
 ## Skills
 
 ### Programming Languages
@@ -67,15 +45,31 @@ To seek an intellectually challenging job where my knowledge and skills can be h
 
 1. **DailyDash**
    - A multifaceted web application with a chat system, meeting system, secure login, Google Drive integration, and more.
+   - [Preview](link_to_preview)
+   - [Live Demo](link_to_live_demo)
+   - [Video Demo](link_to_video_demo)
+   - [Code](link_to_code)
 
 2. **Advance Todo-List**
    - A MERN stack web app for managing Todo tasks securely with JWT token authentication and undo option for deleted tasks.
+   - [Preview](link_to_preview)
+   - [Live Demo](link_to_live_demo)
+   - [Video Demo](link_to_video_demo)
+   - [Code](link_to_code)
 
 3. **Resellify**
    - A pre-owned product selling platform developed using Flutter, PHP, and MySQL with features like chat, search functionality, trending items, and an Add to cart feature.
+   - [Preview](link_to_preview)
+   - [Live Demo](link_to_live_demo)
+   - [Video Demo](link_to_video_demo)
+   - [Code](link_to_code)
 
 4. **Tutorial Management System**
    - A web app to organize, schedule, and track tutorials developed using React.js, HTML, CSS, Express.js, and MySQL.
+   - [Preview](link_to_preview)
+   - [Live Demo](link_to_live_demo)
+   - [Video Demo](link_to_video_demo)
+   - [Code](link_to_code)
 
 ## Certifications
 
