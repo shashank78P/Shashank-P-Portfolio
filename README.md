@@ -1,6 +1,6 @@
 # Shashank P's Portfolio
 
-![Profile Picture]([link_to_your_profile_picture](https://avatars.githubusercontent.com/u/96535169?v=4))
+![Profile Picture](https://avatars.githubusercontent.com/u/96535169?v=4)
 
 ## Contact Information
 
