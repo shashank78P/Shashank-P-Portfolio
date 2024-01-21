@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shashank P's Portfolio
 
-## Getting Started
+![Profile Picture](https://avatars.githubusercontent.com/u/96535169?v=4)
 
-First, run the development server:
+## Contact Information
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Location:** Bengaluru, Karnataka, India
+- **Phone:** 8970364828 / 7022540380
+- **Email:** 19.shashank.p@gmail.com
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Social Media and Profiles
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [LinkedIn](link_to_linkedin_profile)
+- [GitHub](https://github.com/shashank78P)
+- [Portfolio](https://shashank-p-portfolio.vercel.app/)
+- [YouTube](https://www.youtube.com/channel/UCnv36ZvEbuxOgyouqakauug)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Skills
 
-## Learn More
+### Programming Languages
 
-To learn more about Next.js, take a look at the following resources:
+- JavaScript, Java, Python, C
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Database
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- MongoDB, MySQL
 
-## Deploy on Vercel
+### Web Technologies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- HTML, CSS, Tailwind CSS, Nest.js, PHP, Node.js, Express.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Frameworks/Libraries
+
+- React.js, Next.js, Flutter , Django
+
+### Tools
+
+- Visual Studio Code, Figma, Git
+
+## Projects
+
+1. **DailyDash**
+   - DailyDash is a multifaceted web application comprising a chat system for both individual and group communication. It incorporates a robust meeting system with video, audio, and screen-sharing capabilities.        The project includes a secure login system supporting manual and Google login, employing JWT tokens stored in cookies. Integration with Google Drive enables seamless file management. Additionally, the             platform offers a bookmarks feature for efficient organization and prioritization.
+   - [Preview](https://daily-dash.vercel.app/)
+   - [Video Demo](https://www.youtube.com/playlist?list=PL97HzcXdIb4fYVfhqRUPq8nDbt1EMFVdT)
+   - [FrontEnd Code](https://github.com/shashank78P/DailyDash)
+   - [BackEnd Code](https://github.com/shashank78P/DailyDashApi)
+
+2. **Advance Todo-List**
+   - A Todo-task web app where we can add / delete / update task and can monitor task status. And implemented secure user authentication through JWT token , and add undo option for deleted Todo-tasks. Developed        using MERN Stack
+   - [Preview](https://advance-to-do-list-front-end.vercel.app/)
+   - [Video Demo](https://youtu.be/TbZwKGdO9SI)
+   - [FrontEnd Code](https://github.com/shashank78P/AdvanceToDoListFrontEnd)
+   - [BackEnd Code](https://github.com/shashank78P/AdvanceTodoListBackendEnd)
+
+3. **Resellify**
+   - It is a pre-owned product selling platform developed using Flutter , PHP and MySQL. Here user can sell and buy products , provided a chatting between seller and buyer , search functionality based on recent        search, trending items to improve user accessibility to desired products, integrated Add to cart feature.
+
+4. **Tutorial Management System**
+   - A web app to organize, schedule, and track tutorials developed using React.js, HTML, CSS, Express.js, and MySQL.
+   - [Preview](https://dbms-project-front-end-code.vercel.app/)
+   - [FrontEnd Code](https://github.com/shashank78P/DBMS_Project_Front_End_Code-)
+   - [BackEnd Code](https://github.com/shashank78P/DBMS_Project_Backend_code)
