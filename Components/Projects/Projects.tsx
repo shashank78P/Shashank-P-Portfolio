@@ -58,13 +58,13 @@ const Projects = () => {
                                                 <Link href={`/${project?.route}`} className='p-2 text-white bg-black_c_1  rounded-lg font-medium my-2'>
                                                     Read more
                                                 </Link >
-                                                <span className='ml-4 p-2 border rounded-full bg-black_c_1 cursor-pointer'
+                                                {project?.live && <span className='ml-4 p-2 border rounded-full bg-black_c_1 cursor-pointer'
                                                     onClick={() => {
                                                         window?.open(project?.live, "_blank")
                                                     }}
                                                 >
                                                     <EyeIco height={25} width={25} color='white' />
-                                                </span>
+                                                </span>}
                                             </div>
                                         </div>
                                     </div>

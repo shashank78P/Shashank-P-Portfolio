@@ -19,6 +19,8 @@ import { GlobalContext } from '../Context/GlobalContext'
 import { GlobalContextDto } from '../Context/type'
 import UseIsVisible from '../GlobalComponents/UseIsVisible'
 import HtmlIco from '../assets/HtmlIco'
+import Neo4JIco from '../assets/Neo4JIco'
+import DjangoIco from '../assets/DjangoIco'
 
 const Skills = () => {
     const { setCurrentSectionInView } = useContext<GlobalContextDto>(GlobalContext)
@@ -121,6 +123,13 @@ const Skills = () => {
                         </li>
                         <li className='text-black_c_1 text-sm truncate'>MySql</li>
                     </ul>
+                    {/* Neo4j */}
+                    <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
+                        <li>
+                            <Neo4JIco height={50} width={50} />
+                        </li>
+                        <li className='text-black_c_1 text-sm truncate'>Neo4j</li>
+                    </ul>
                     {/* Figma */}
                     <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
                         <li>
@@ -148,6 +157,13 @@ const Skills = () => {
                             <PythonIco height={50} width={50} />
                         </li>
                         <li className='text-black_c_1 text-sm truncate'>Python</li>
+                    </ul>
+                    {/* Django */}
+                    <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
+                        <li>
+                            <DjangoIco height={50} width={50} />
+                        </li>
+                        <li className='text-black_c_1 text-sm truncate'>Django</li>
                     </ul>
                     {/* Java */}
                     <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
