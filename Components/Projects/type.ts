@@ -27,7 +27,7 @@ export const projectsData : projectDto[] = [
     {
         Title:"OrgAttend",
         imageUrl:"/images/StayInTime/UserHomePageMobile.png",
-        description : "Welcome to OrgAttend, your solution for seamless organizational management. Effortlessly navigate through diverse organizations, each with unique structures. OrgAttend empowers owners to define custom job titles, create dynamic teams, and add members. Leaders, co-leaders, and owners can efficiently manage attendance, ensuring accurate tracking. The system streamlines leave management, allowing employees to request leaves with approvals handled by designated leaders or owners. Whether you're a startup, scaling business, or established enterprise, OrgAttend simplifies complexities, fostering collaboration and optimizing operations. Elevate your organizational dynamics with OrgAttend – the key to effective management and streamlined teamwork.",
+        description : "Welcome to OrgAttend, your solution for seamless organizational management. Effortlessly navigate through diverse organizations, each with unique structures. OrgAttend empowers owners to define custom job titles, create dynamic teams, and add members. Leaders, co-leaders, and owners can efficiently manage attendance, ensuring accurate tracking. The system streamlines leave management, allowing employees to request leaves with approvals handled by designated leaders or owners.",
         isImageAllowToScroll : true,
         route : "org-attend",
         live: undefined
