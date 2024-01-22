@@ -25,11 +25,11 @@ export const projectsData : projectDto[] = [
         live:process.env.NEXT_PUBLIC_TUTORIAL_ADVANCE_TODO_LIST_LIVE,
     },
     {
-        Title:"Stay In Time",
+        Title:"OrgAttend",
         imageUrl:"/images/StayInTime/UserHomePageMobile.png",
-        description : "The Advance To-Do List web app allows a user to create, read, update or delete to-do tasks.Its user-friendly interface includes a secure login system to protect user data. The app features pagination for easy navigation through tasks, ensuring a smooth user experience, especially with a large number of entries. The search functionality allows users to quickly locate specific tasks by task name. Furthermore, users can filter tasks based on their status, distinguishing between active and completed tasks.",
+        description : "Welcome to OrgAttend, your solution for seamless organizational management. Effortlessly navigate through diverse organizations, each with unique structures. OrgAttend empowers owners to define custom job titles, create dynamic teams, and add members. Leaders, co-leaders, and owners can efficiently manage attendance, ensuring accurate tracking. The system streamlines leave management, allowing employees to request leaves with approvals handled by designated leaders or owners. Whether you're a startup, scaling business, or established enterprise, OrgAttend simplifies complexities, fostering collaboration and optimizing operations. Elevate your organizational dynamics with OrgAttend – the key to effective management and streamlined teamwork.",
         isImageAllowToScroll : true,
-        route : "stay-in-time",
+        route : "org-attend",
         live: undefined
     },
     {

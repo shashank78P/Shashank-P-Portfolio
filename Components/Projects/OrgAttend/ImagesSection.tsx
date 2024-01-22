@@ -8,7 +8,7 @@ const ImagesSection = () => {
             <h1 className={`text-lg ${philosopher.className}`}>Images</h1>
 
             <ul className='w-full mb-2'>
-                <li className='text-base font-semibold'>Stay In Time</li>
+                <li className='text-base font-semibold'>OrgAttend</li>
                 <li className='w-full'>
                     <div className=' w-full columns-2 md:columns-3 lg:columns-4 gap-3 p-2'>
                         {
