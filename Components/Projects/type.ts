@@ -33,6 +33,14 @@ export const projectsData : projectDto[] = [
         live: undefined
     },
     {
+        Title:"ToDo Dapp",
+        imageUrl:"/images/ToDoDapp/ToDoDapp.png",
+        description : "The Advance To-Do List web app allows a user to create, read, update or delete to-do tasks.Its user-friendly interface includes a secure login system to protect user data. The app features pagination for easy navigation through tasks, ensuring a smooth user experience, especially with a large number of entries. The search functionality allows users to quickly locate specific tasks by task name. Furthermore, users can filter tasks based on their status, distinguishing between active and completed tasks.",
+        isImageAllowToScroll : false,
+        route : "to-do-dapp",
+        live:process.env.NEXT_PUBLIC_TUTORIAL_ADVANCE_TODO_LIST_LIVE,
+    },
+    {
         Title:"Tutorial Management system",
         imageUrl:"/images/TutorialManagementSystem/HomePageDesktop.png",
         description : "Tutorial Management System is a project has some objective to be proficient suitable for most of the training center , it manages job of admin in admission of new student record ,updating fee of existing student and teachers by allocating them a classes .This help admin of respective tutorial go paperless and effortless in searching records.",

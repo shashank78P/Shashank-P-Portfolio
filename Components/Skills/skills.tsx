@@ -21,6 +21,10 @@ import UseIsVisible from '../GlobalComponents/UseIsVisible'
 import HtmlIco from '../assets/HtmlIco'
 import Neo4JIco from '../assets/Neo4JIco'
 import DjangoIco from '../assets/DjangoIco'
+import Web3Ico from '../assets/Web3Ico'
+import TruffleIco from '../assets/TruffleIco'
+import GanachIco from '../assets/GanachIco'
+import FlaskIco from '../assets/FlaskIco'
 
 const Skills = () => {
     const { setCurrentSectionInView } = useContext<GlobalContextDto>(GlobalContext)
@@ -29,11 +33,11 @@ const Skills = () => {
 
     useEffect(() => {
         if (is_visible) {
-            setCurrentSectionInView( (prev : string[]) => {
-                if(prev?.includes("skills")){
+            setCurrentSectionInView((prev: string[]) => {
+                if (prev?.includes("skills")) {
                     return prev
-                }else{
-                    return [...prev , "skills"]
+                } else {
+                    return [...prev, "skills"]
                 }
             })
         } else {
@@ -165,6 +169,40 @@ const Skills = () => {
                         </li>
                         <li className='text-black_c_1 text-sm truncate'>Django</li>
                     </ul>
+
+
+                    {/* Flask */}
+                    <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
+                        <li>
+                            <FlaskIco height={50} width={50} />
+                        </li>
+                        <li className='text-black_c_1 text-sm truncate'>Flask</li>
+                    </ul>
+
+                    {/* Web3 */}
+                    <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
+                        <li>
+                            <Web3Ico height={50} width={50} />
+                        </li>
+                        <li className='text-black_c_1 text-sm truncate'>Web3.0</li>
+                    </ul>
+
+                    {/* truffle */}
+                    <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
+                        <li>
+                            <TruffleIco height={50} width={50} />
+                        </li>
+                        <li className='text-black_c_1 text-sm truncate'>Truffle</li>
+                    </ul>
+
+                    {/* ganache */}
+                    <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
+                        <li>
+                            <GanachIco height={50} width={50} />
+                        </li>
+                        <li className='text-black_c_1 text-sm truncate'>Ganache</li>
+                    </ul>
+
                     {/* Java */}
                     <ul className='w-auto p-2 flex flex-col justify-center items-center rounded-lg shadow-xl min-w-[100px] max-w-[150px] cursor-pointer'>
                         <li>
@@ -172,8 +210,9 @@ const Skills = () => {
                         </li>
                         <li className='text-black_c_1 text-sm truncate'>Java</li>
                     </ul>
+
                 </div>
-            </div>
+            </div >
         </>
     )
 }
