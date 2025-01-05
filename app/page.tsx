@@ -1,4 +1,5 @@
 "use client"
+import ChatBotButton from "@/Components/ChatBot/ChatBotButton";
 import GlobalContextProvider from "@/Components/Context/GlobalContextProvider";
 import Experience from "@/Components/Experience/Experience";
 import Footer from "@/Components/Footer/Footer";
@@ -20,6 +21,8 @@ export default function Home() {
             <Projects />
             <Experience />
             <Footer />
+
+            <ChatBotButton />
           </div>
         </div>
       </GlobalContextProvider>
