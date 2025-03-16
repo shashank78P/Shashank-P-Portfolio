@@ -28,7 +28,7 @@ const DetailedPageFooter = () => {
                     <span>
                         <CallIco height={20} width={20} color='white' />
                     </span>
-                    <span className='ml-2 text-sm'>+91 8970364828</span>
+                    <span className='ml-2 text-sm'>+91 7022540380</span>
                 </li>
             </ul>
 

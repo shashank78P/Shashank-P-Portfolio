@@ -5,7 +5,7 @@
 ## Contact Information
 
 - **Location:** Bengaluru, Karnataka, India
-- **Phone:** 8970364828 / 7022540380
+- **Phone:** 7022540380 / 7022540380
 - **Email:** 19.shashank.p@gmail.com
 
 ## Social Media and Profiles
