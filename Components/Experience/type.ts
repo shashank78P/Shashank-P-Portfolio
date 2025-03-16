@@ -23,12 +23,13 @@ export const experienceDetails: experienceDetailsDto[] = [
     {
       workPeriod: "Nov 2024 - Current",
       jobType: jobType.FULL_TIME_JOB,
-      company: "Raphacure (Cure and Care Pvt Ltd)",
+      company: "Raphacure (Cure and Care Private Care Pvt Ltd)",
       workingMode: workMode.OFFLINE,
       role: "Node Js Developer",
       description: [
-        "Building responsive UI components with React.js to enhance interactivity and user experience.",
-        "Managing application state with Context API and Hooks, integrating external libraries, and providing real-time updates via Socket.io and API integrations.",
+        "Developing RESTful APIs using Node.js, PostgreSQL, Redis, Knex.js, and Socket.io for a real-time chat application.",
+        "Designing and implementing responsive UI components with React.js to enhance interactivity and user experience. ",
+        "Worked with Node.js, Express.js, Knex.js, Objection.js, Postgres, MongoDB, React.js, TypeScript, Redis, Socket.IO and Git."        
       ],
     },
     {

@@ -35,7 +35,7 @@ const Experience = () => {
                         experienceDetails?.map((data: experienceDetailsDto, i) => {
                             return (
                                 <ul className='max-w-[500px] min-w-[200px] cursor-pointer border mx-2 my-4 p-4 relative shadow-md rounded-sm before:content-[""] before:absolute before:w-5 before:h-5 before:border before:rounded-full before:bg-gold b before:-left-7 before:-top-1 before:shadow-sm before:shadow-gold before:cursor-pointer' key={i}>
-                                    <li className='my-1 text-gold font-medium text-base'>{data?.workPeriod}</li>
+                                    <li className='my-1 text-gold font-medium text-base'>{data?.company} ({data?.workPeriod})</li>
                                     <li className={` ${philosopher.className} my-1 text-lg font-medium`}>{data?.role}</li>
                                     <ul className='flex items-center'>
                                         <li className=' border p-1 rounded-md my-1  mr-2 font-light text-sm'>{data?.jobType}</li>
